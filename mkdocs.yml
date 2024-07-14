@@ -1,10 +1,27 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: My Docs
+site_name: JWY
 site_url: https://jungwooyang.com
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: teal
+  logo: assets/images/jw_icon.svg
+  favicon: assets/images/jw_icon.svg
+  custom_dir: overrides
 
 plugins:
   - search
-  - blog
+  - blog:
+      blog_dir: .
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

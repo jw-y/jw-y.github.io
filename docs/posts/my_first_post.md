@@ -1,6 +1,8 @@
 ---
 date:
-  created: 2024-07-14
+    created: 2024-07-13
+categories:
+    - Programming
 ---
 
 # First Post
