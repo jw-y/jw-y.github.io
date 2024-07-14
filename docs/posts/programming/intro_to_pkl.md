@@ -9,6 +9,8 @@ categories:
 
 There are many configuration languages such as `json`, `yaml` and `toml`. They are perfect for simple tasks but quickly get out of hand when it is used for seting up complicated systems like docker or kubernetes. Then Pkl language from Apple came to rescue. Here is the link to [the home page](https://pkl-lang.org/index.html). (Don't confuse this with `Python`'s `pickle`.)
 
+<!-- more -->
+
 Biggest advantages of `Pkl` are
 - validations
 - import of other files
