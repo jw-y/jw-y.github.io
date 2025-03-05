@@ -12,6 +12,11 @@ theme:
   favicon: assets/images/jw_icon.svg
   custom_dir: overrides
 
+extra:
+  analytics:
+    provider: google
+    property: G-148957405
+
 plugins:
   - search
   - blog:
